@@ -60,6 +60,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/NightlyMemoryCheck.dir/DependInfo.cmake"
   "CMakeFiles/Experimental.dir/DependInfo.cmake"
+  "CMakeFiles/leetcode.dir/DependInfo.cmake"
   "CMakeFiles/NightlySubmit.dir/DependInfo.cmake"
   "CMakeFiles/NightlyConfigure.dir/DependInfo.cmake"
   "CMakeFiles/NightlyBuild.dir/DependInfo.cmake"
@@ -86,5 +87,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousBuild.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousTest.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousCoverage.dir/DependInfo.cmake"
-  "CMakeFiles/leetcodeSolutionsCpp.dir/DependInfo.cmake"
   )

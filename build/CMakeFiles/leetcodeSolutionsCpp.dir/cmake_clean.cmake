@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
+  "../bin/leetcodeSolutionsCpp.exe"
+  "../bin/leetcodeSolutionsCpp.exe.manifest"
+  "../bin/leetcodeSolutionsCpp.pdb"
+  "../bin/libleetcodeSolutionsCpp.dll.a"
   "CMakeFiles/leetcodeSolutionsCpp.dir/src/main.cpp.obj"
   "CMakeFiles/leetcodeSolutionsCpp.dir/src/main.cpp.obj.d"
   "CMakeFiles/leetcodeSolutionsCpp.dir/src/twoPointerType.cpp.obj"
   "CMakeFiles/leetcodeSolutionsCpp.dir/src/twoPointerType.cpp.obj.d"
-  "leetcodeSolutionsCpp.exe"
-  "leetcodeSolutionsCpp.exe.manifest"
-  "leetcodeSolutionsCpp.pdb"
-  "libleetcodeSolutionsCpp.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

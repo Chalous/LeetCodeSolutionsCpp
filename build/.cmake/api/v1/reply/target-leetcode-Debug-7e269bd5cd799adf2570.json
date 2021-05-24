@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "leetcodeSolutionsCpp.exe"
+			"path" : "F:/Coding/C++Projects/LeetCodeSolutionsCpp/bin/leetcode.exe"
 		},
 		{
-			"path" : "leetcodeSolutionsCpp.pdb"
+			"path" : "F:/Coding/C++Projects/LeetCodeSolutionsCpp/bin/leetcode.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -49,7 +49,7 @@
 			]
 		}
 	],
-	"id" : "leetcodeSolutionsCpp::@6890427a1f51a3e7e1df",
+	"id" : "leetcode::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +69,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "leetcodeSolutionsCpp",
-	"nameOnDisk" : "leetcodeSolutionsCpp.exe",
+	"name" : "leetcode",
+	"nameOnDisk" : "leetcode.exe",
 	"paths" : 
 	{
 		"build" : ".",

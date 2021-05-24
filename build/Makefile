@@ -172,6 +172,19 @@ Experimental/fast:
 .PHONY : Experimental/fast
 
 #=============================================================================
+# Target rules for targets named leetcode
+
+# Build rule for target.
+leetcode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 leetcode
+.PHONY : leetcode
+
+# fast build rule for target.
+leetcode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/build
+.PHONY : leetcode/fast
+
+#=============================================================================
 # Target rules for targets named NightlySubmit
 
 # Build rule for target.
@@ -509,25 +522,12 @@ ContinuousCoverage/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ContinuousCoverage.dir\build.make CMakeFiles/ContinuousCoverage.dir/build
 .PHONY : ContinuousCoverage/fast
 
-#=============================================================================
-# Target rules for targets named leetcodeSolutionsCpp
-
-# Build rule for target.
-leetcodeSolutionsCpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 leetcodeSolutionsCpp
-.PHONY : leetcodeSolutionsCpp
-
-# fast build rule for target.
-leetcodeSolutionsCpp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcodeSolutionsCpp.dir\build.make CMakeFiles/leetcodeSolutionsCpp.dir/build
-.PHONY : leetcodeSolutionsCpp/fast
-
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcodeSolutionsCpp.dir\build.make CMakeFiles/leetcodeSolutionsCpp.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -535,7 +535,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcodeSolutionsCpp.dir\build.make CMakeFiles/leetcodeSolutionsCpp.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -543,7 +543,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcodeSolutionsCpp.dir\build.make CMakeFiles/leetcodeSolutionsCpp.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/twoPointerType.obj: src/twoPointerType.cpp.obj
@@ -551,7 +551,7 @@ src/twoPointerType.obj: src/twoPointerType.cpp.obj
 
 # target to build an object file
 src/twoPointerType.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcodeSolutionsCpp.dir\build.make CMakeFiles/leetcodeSolutionsCpp.dir/src/twoPointerType.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/twoPointerType.cpp.obj
 .PHONY : src/twoPointerType.cpp.obj
 
 src/twoPointerType.i: src/twoPointerType.cpp.i
@@ -559,7 +559,7 @@ src/twoPointerType.i: src/twoPointerType.cpp.i
 
 # target to preprocess a source file
 src/twoPointerType.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcodeSolutionsCpp.dir\build.make CMakeFiles/leetcodeSolutionsCpp.dir/src/twoPointerType.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/twoPointerType.cpp.i
 .PHONY : src/twoPointerType.cpp.i
 
 src/twoPointerType.s: src/twoPointerType.cpp.s
@@ -567,7 +567,7 @@ src/twoPointerType.s: src/twoPointerType.cpp.s
 
 # target to generate assembly for a file
 src/twoPointerType.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcodeSolutionsCpp.dir\build.make CMakeFiles/leetcodeSolutionsCpp.dir/src/twoPointerType.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/twoPointerType.cpp.s
 .PHONY : src/twoPointerType.cpp.s
 
 # Help Target
@@ -609,7 +609,7 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... leetcodeSolutionsCpp
+	@echo ... leetcode
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
