@@ -68,10 +68,24 @@ include CMakeFiles/leetcode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/leetcode.dir/flags.make
 
+CMakeFiles/leetcode.dir/src/dpType.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/src/dpType.cpp.obj: ../src/dpType.cpp
+CMakeFiles/leetcode.dir/src/dpType.cpp.obj: CMakeFiles/leetcode.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Coding\C++Projects\LeetCodeSolutionsCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode.dir/src/dpType.cpp.obj"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode.dir/src/dpType.cpp.obj -MF CMakeFiles\leetcode.dir\src\dpType.cpp.obj.d -o CMakeFiles\leetcode.dir\src\dpType.cpp.obj -c F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\dpType.cpp
+
+CMakeFiles/leetcode.dir/src/dpType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/src/dpType.cpp.i"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\dpType.cpp > CMakeFiles\leetcode.dir\src\dpType.cpp.i
+
+CMakeFiles/leetcode.dir/src/dpType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/src/dpType.cpp.s"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\dpType.cpp -o CMakeFiles\leetcode.dir\src\dpType.cpp.s
+
 CMakeFiles/leetcode.dir/src/main.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/src/main.cpp.obj: ../src/main.cpp
 CMakeFiles/leetcode.dir/src/main.cpp.obj: CMakeFiles/leetcode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Coding\C++Projects\LeetCodeSolutionsCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Coding\C++Projects\LeetCodeSolutionsCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/leetcode.dir/src/main.cpp.obj"
 	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode.dir/src/main.cpp.obj -MF CMakeFiles\leetcode.dir\src\main.cpp.obj.d -o CMakeFiles\leetcode.dir\src\main.cpp.obj -c F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\main.cpp
 
 CMakeFiles/leetcode.dir/src/main.cpp.i: cmake_force
@@ -85,7 +99,7 @@ CMakeFiles/leetcode.dir/src/main.cpp.s: cmake_force
 CMakeFiles/leetcode.dir/src/twoPointerType.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/src/twoPointerType.cpp.obj: ../src/twoPointerType.cpp
 CMakeFiles/leetcode.dir/src/twoPointerType.cpp.obj: CMakeFiles/leetcode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Coding\C++Projects\LeetCodeSolutionsCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/leetcode.dir/src/twoPointerType.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Coding\C++Projects\LeetCodeSolutionsCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/leetcode.dir/src/twoPointerType.cpp.obj"
 	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode.dir/src/twoPointerType.cpp.obj -MF CMakeFiles\leetcode.dir\src\twoPointerType.cpp.obj.d -o CMakeFiles\leetcode.dir\src\twoPointerType.cpp.obj -c F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\twoPointerType.cpp
 
 CMakeFiles/leetcode.dir/src/twoPointerType.cpp.i: cmake_force
@@ -98,19 +112,21 @@ CMakeFiles/leetcode.dir/src/twoPointerType.cpp.s: cmake_force
 
 # Object files for target leetcode
 leetcode_OBJECTS = \
+"CMakeFiles/leetcode.dir/src/dpType.cpp.obj" \
 "CMakeFiles/leetcode.dir/src/main.cpp.obj" \
 "CMakeFiles/leetcode.dir/src/twoPointerType.cpp.obj"
 
 # External object files for target leetcode
 leetcode_EXTERNAL_OBJECTS =
 
+../bin/leetcode.exe: CMakeFiles/leetcode.dir/src/dpType.cpp.obj
 ../bin/leetcode.exe: CMakeFiles/leetcode.dir/src/main.cpp.obj
 ../bin/leetcode.exe: CMakeFiles/leetcode.dir/src/twoPointerType.cpp.obj
 ../bin/leetcode.exe: CMakeFiles/leetcode.dir/build.make
 ../bin/leetcode.exe: CMakeFiles/leetcode.dir/linklibs.rsp
 ../bin/leetcode.exe: CMakeFiles/leetcode.dir/objects1.rsp
 ../bin/leetcode.exe: CMakeFiles/leetcode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Coding\C++Projects\LeetCodeSolutionsCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ..\bin\leetcode.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Coding\C++Projects\LeetCodeSolutionsCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ..\bin\leetcode.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\leetcode.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

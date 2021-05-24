@@ -1,6 +1,11 @@
 [
 {
   "directory": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\leetcode.dir\\src\\dpType.cpp.obj -c F:\\Coding\\C++Projects\\LeetCodeSolutionsCpp\\src\\dpType.cpp",
+  "file": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/dpType.cpp"
+},
+{
+  "directory": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/build",
   "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\leetcode.dir\\src\\main.cpp.obj -c F:\\Coding\\C++Projects\\LeetCodeSolutionsCpp\\src\\main.cpp",
   "file": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/main.cpp"
 },

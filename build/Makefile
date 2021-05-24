@@ -522,6 +522,30 @@ ContinuousCoverage/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ContinuousCoverage.dir\build.make CMakeFiles/ContinuousCoverage.dir/build
 .PHONY : ContinuousCoverage/fast
 
+src/dpType.obj: src/dpType.cpp.obj
+.PHONY : src/dpType.obj
+
+# target to build an object file
+src/dpType.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/dpType.cpp.obj
+.PHONY : src/dpType.cpp.obj
+
+src/dpType.i: src/dpType.cpp.i
+.PHONY : src/dpType.i
+
+# target to preprocess a source file
+src/dpType.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/dpType.cpp.i
+.PHONY : src/dpType.cpp.i
+
+src/dpType.s: src/dpType.cpp.s
+.PHONY : src/dpType.s
+
+# target to generate assembly for a file
+src/dpType.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/dpType.cpp.s
+.PHONY : src/dpType.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -610,6 +634,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... leetcode
+	@echo ... src/dpType.obj
+	@echo ... src/dpType.i
+	@echo ... src/dpType.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

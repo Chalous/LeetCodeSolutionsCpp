@@ -133,4 +133,13 @@ CMakeFiles/leetcode.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/10.2.0/istream \
  C:/msys64/mingw64/include/c++/10.2.0/bits/istream.tcc \
  F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\twoPointerType.h \
- F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\general.h
+ F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\general.h \
+ C:/msys64/mingw64/include/c++/10.2.0/vector \
+ C:/msys64/mingw64/include/c++/10.2.0/bits/stl_uninitialized.h \
+ C:/msys64/mingw64/include/c++/10.2.0/bits/stl_vector.h \
+ C:/msys64/mingw64/include/c++/10.2.0/bits/stl_bvector.h \
+ C:/msys64/mingw64/include/c++/10.2.0/bits/vector.tcc \
+ C:/msys64/mingw64/include/c++/10.2.0/cstring \
+ C:/msys64/mingw64/x86_64-w64-mingw32/include/string.h \
+ C:/msys64/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\dpType.h
