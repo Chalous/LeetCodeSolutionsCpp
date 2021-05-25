@@ -7,7 +7,8 @@
 #endif
 
 int main(){
-    cout<<hard664_strangePrinter("aaabbb");
+    vector<int> input={1,2,0,3,0};
+    cout<<hard1787_minChanges(input,1);
     system("pause");
     return 0;
 }
