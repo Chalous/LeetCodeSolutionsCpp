@@ -137,4 +137,11 @@ CMakeFiles/leetcode.dir/src/dpType.cpp.obj: \
  C:/msys64/mingw64/include/c++/10.2.0/bits/algorithmfwd.h \
  C:/msys64/mingw64/include/c++/10.2.0/bits/stl_heap.h \
  C:/msys64/mingw64/include/c++/10.2.0/bits/stl_tempbuf.h \
- C:/msys64/mingw64/include/c++/10.2.0/bits/uniform_int_dist.h
+ C:/msys64/mingw64/include/c++/10.2.0/bits/uniform_int_dist.h \
+ C:/msys64/mingw64/include/c++/10.2.0/stack \
+ C:/msys64/mingw64/include/c++/10.2.0/deque \
+ C:/msys64/mingw64/include/c++/10.2.0/bits/stl_deque.h \
+ C:/msys64/mingw64/include/c++/10.2.0/bits/deque.tcc \
+ C:/msys64/mingw64/include/c++/10.2.0/bits/stl_stack.h \
+ C:/msys64/mingw64/include/c++/10.2.0/queue \
+ C:/msys64/mingw64/include/c++/10.2.0/bits/stl_queue.h

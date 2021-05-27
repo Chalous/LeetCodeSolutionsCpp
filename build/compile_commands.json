@@ -1,8 +1,33 @@
 [
 {
   "directory": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\leetcode.dir\\src\\binarySearchType.cpp.obj -c F:\\Coding\\C++Projects\\LeetCodeSolutionsCpp\\src\\binarySearchType.cpp",
+  "file": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/binarySearchType.cpp"
+},
+{
+  "directory": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\leetcode.dir\\src\\bitOperationType.cpp.obj -c F:\\Coding\\C++Projects\\LeetCodeSolutionsCpp\\src\\bitOperationType.cpp",
+  "file": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/bitOperationType.cpp"
+},
+{
+  "directory": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/build",
   "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\leetcode.dir\\src\\dpType.cpp.obj -c F:\\Coding\\C++Projects\\LeetCodeSolutionsCpp\\src\\dpType.cpp",
   "file": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/dpType.cpp"
+},
+{
+  "directory": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\leetcode.dir\\src\\fastSlowPointers.cpp.obj -c F:\\Coding\\C++Projects\\LeetCodeSolutionsCpp\\src\\fastSlowPointers.cpp",
+  "file": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/fastSlowPointers.cpp"
+},
+{
+  "directory": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\leetcode.dir\\src\\hashMapType.cpp.obj -c F:\\Coding\\C++Projects\\LeetCodeSolutionsCpp\\src\\hashMapType.cpp",
+  "file": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/hashMapType.cpp"
+},
+{
+  "directory": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\leetcode.dir\\src\\linkedListType.cpp.obj -c F:\\Coding\\C++Projects\\LeetCodeSolutionsCpp\\src\\linkedListType.cpp",
+  "file": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/linkedListType.cpp"
 },
 {
   "directory": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/build",
@@ -11,7 +36,17 @@
 },
 {
   "directory": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/build",
-  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\leetcode.dir\\src\\twoPointerType.cpp.obj -c F:\\Coding\\C++Projects\\LeetCodeSolutionsCpp\\src\\twoPointerType.cpp",
-  "file": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/twoPointerType.cpp"
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\leetcode.dir\\src\\monoStack.cpp.obj -c F:\\Coding\\C++Projects\\LeetCodeSolutionsCpp\\src\\monoStack.cpp",
+  "file": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/monoStack.cpp"
+},
+{
+  "directory": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\leetcode.dir\\src\\stringEditType.cpp.obj -c F:\\Coding\\C++Projects\\LeetCodeSolutionsCpp\\src\\stringEditType.cpp",
+  "file": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/stringEditType.cpp"
+},
+{
+  "directory": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\leetcode.dir\\src\\twoPointersType.cpp.obj -c F:\\Coding\\C++Projects\\LeetCodeSolutionsCpp\\src\\twoPointersType.cpp",
+  "file": "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/twoPointersType.cpp"
 }
 ]

@@ -1,5 +1,6 @@
-CMakeFiles/leetcode.dir/src/twoPointerType.cpp.obj: \
- F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\twoPointerType.cpp \
+CMakeFiles/leetcode.dir/src/monoStack.cpp.obj: \
+ F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\monoStack.cpp \
+ F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\monoStack.h \
  F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\general.h \
  C:/msys64/mingw64/include/c++/10.2.0/string \
  C:/msys64/mingw64/include/c++/10.2.0/x86_64-w64-mingw32/bits/c++config.h \

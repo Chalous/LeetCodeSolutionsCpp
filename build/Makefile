@@ -522,6 +522,54 @@ ContinuousCoverage/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ContinuousCoverage.dir\build.make CMakeFiles/ContinuousCoverage.dir/build
 .PHONY : ContinuousCoverage/fast
 
+src/binarySearchType.obj: src/binarySearchType.cpp.obj
+.PHONY : src/binarySearchType.obj
+
+# target to build an object file
+src/binarySearchType.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/binarySearchType.cpp.obj
+.PHONY : src/binarySearchType.cpp.obj
+
+src/binarySearchType.i: src/binarySearchType.cpp.i
+.PHONY : src/binarySearchType.i
+
+# target to preprocess a source file
+src/binarySearchType.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/binarySearchType.cpp.i
+.PHONY : src/binarySearchType.cpp.i
+
+src/binarySearchType.s: src/binarySearchType.cpp.s
+.PHONY : src/binarySearchType.s
+
+# target to generate assembly for a file
+src/binarySearchType.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/binarySearchType.cpp.s
+.PHONY : src/binarySearchType.cpp.s
+
+src/bitOperationType.obj: src/bitOperationType.cpp.obj
+.PHONY : src/bitOperationType.obj
+
+# target to build an object file
+src/bitOperationType.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/bitOperationType.cpp.obj
+.PHONY : src/bitOperationType.cpp.obj
+
+src/bitOperationType.i: src/bitOperationType.cpp.i
+.PHONY : src/bitOperationType.i
+
+# target to preprocess a source file
+src/bitOperationType.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/bitOperationType.cpp.i
+.PHONY : src/bitOperationType.cpp.i
+
+src/bitOperationType.s: src/bitOperationType.cpp.s
+.PHONY : src/bitOperationType.s
+
+# target to generate assembly for a file
+src/bitOperationType.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/bitOperationType.cpp.s
+.PHONY : src/bitOperationType.cpp.s
+
 src/dpType.obj: src/dpType.cpp.obj
 .PHONY : src/dpType.obj
 
@@ -545,6 +593,78 @@ src/dpType.s: src/dpType.cpp.s
 src/dpType.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/dpType.cpp.s
 .PHONY : src/dpType.cpp.s
+
+src/fastSlowPointers.obj: src/fastSlowPointers.cpp.obj
+.PHONY : src/fastSlowPointers.obj
+
+# target to build an object file
+src/fastSlowPointers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/fastSlowPointers.cpp.obj
+.PHONY : src/fastSlowPointers.cpp.obj
+
+src/fastSlowPointers.i: src/fastSlowPointers.cpp.i
+.PHONY : src/fastSlowPointers.i
+
+# target to preprocess a source file
+src/fastSlowPointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/fastSlowPointers.cpp.i
+.PHONY : src/fastSlowPointers.cpp.i
+
+src/fastSlowPointers.s: src/fastSlowPointers.cpp.s
+.PHONY : src/fastSlowPointers.s
+
+# target to generate assembly for a file
+src/fastSlowPointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/fastSlowPointers.cpp.s
+.PHONY : src/fastSlowPointers.cpp.s
+
+src/hashMapType.obj: src/hashMapType.cpp.obj
+.PHONY : src/hashMapType.obj
+
+# target to build an object file
+src/hashMapType.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/hashMapType.cpp.obj
+.PHONY : src/hashMapType.cpp.obj
+
+src/hashMapType.i: src/hashMapType.cpp.i
+.PHONY : src/hashMapType.i
+
+# target to preprocess a source file
+src/hashMapType.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/hashMapType.cpp.i
+.PHONY : src/hashMapType.cpp.i
+
+src/hashMapType.s: src/hashMapType.cpp.s
+.PHONY : src/hashMapType.s
+
+# target to generate assembly for a file
+src/hashMapType.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/hashMapType.cpp.s
+.PHONY : src/hashMapType.cpp.s
+
+src/linkedListType.obj: src/linkedListType.cpp.obj
+.PHONY : src/linkedListType.obj
+
+# target to build an object file
+src/linkedListType.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/linkedListType.cpp.obj
+.PHONY : src/linkedListType.cpp.obj
+
+src/linkedListType.i: src/linkedListType.cpp.i
+.PHONY : src/linkedListType.i
+
+# target to preprocess a source file
+src/linkedListType.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/linkedListType.cpp.i
+.PHONY : src/linkedListType.cpp.i
+
+src/linkedListType.s: src/linkedListType.cpp.s
+.PHONY : src/linkedListType.s
+
+# target to generate assembly for a file
+src/linkedListType.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/linkedListType.cpp.s
+.PHONY : src/linkedListType.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -570,29 +690,77 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/twoPointerType.obj: src/twoPointerType.cpp.obj
-.PHONY : src/twoPointerType.obj
+src/monoStack.obj: src/monoStack.cpp.obj
+.PHONY : src/monoStack.obj
 
 # target to build an object file
-src/twoPointerType.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/twoPointerType.cpp.obj
-.PHONY : src/twoPointerType.cpp.obj
+src/monoStack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/monoStack.cpp.obj
+.PHONY : src/monoStack.cpp.obj
 
-src/twoPointerType.i: src/twoPointerType.cpp.i
-.PHONY : src/twoPointerType.i
+src/monoStack.i: src/monoStack.cpp.i
+.PHONY : src/monoStack.i
 
 # target to preprocess a source file
-src/twoPointerType.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/twoPointerType.cpp.i
-.PHONY : src/twoPointerType.cpp.i
+src/monoStack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/monoStack.cpp.i
+.PHONY : src/monoStack.cpp.i
 
-src/twoPointerType.s: src/twoPointerType.cpp.s
-.PHONY : src/twoPointerType.s
+src/monoStack.s: src/monoStack.cpp.s
+.PHONY : src/monoStack.s
 
 # target to generate assembly for a file
-src/twoPointerType.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/twoPointerType.cpp.s
-.PHONY : src/twoPointerType.cpp.s
+src/monoStack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/monoStack.cpp.s
+.PHONY : src/monoStack.cpp.s
+
+src/stringEditType.obj: src/stringEditType.cpp.obj
+.PHONY : src/stringEditType.obj
+
+# target to build an object file
+src/stringEditType.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/stringEditType.cpp.obj
+.PHONY : src/stringEditType.cpp.obj
+
+src/stringEditType.i: src/stringEditType.cpp.i
+.PHONY : src/stringEditType.i
+
+# target to preprocess a source file
+src/stringEditType.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/stringEditType.cpp.i
+.PHONY : src/stringEditType.cpp.i
+
+src/stringEditType.s: src/stringEditType.cpp.s
+.PHONY : src/stringEditType.s
+
+# target to generate assembly for a file
+src/stringEditType.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/stringEditType.cpp.s
+.PHONY : src/stringEditType.cpp.s
+
+src/twoPointersType.obj: src/twoPointersType.cpp.obj
+.PHONY : src/twoPointersType.obj
+
+# target to build an object file
+src/twoPointersType.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/twoPointersType.cpp.obj
+.PHONY : src/twoPointersType.cpp.obj
+
+src/twoPointersType.i: src/twoPointersType.cpp.i
+.PHONY : src/twoPointersType.i
+
+# target to preprocess a source file
+src/twoPointersType.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/twoPointersType.cpp.i
+.PHONY : src/twoPointersType.cpp.i
+
+src/twoPointersType.s: src/twoPointersType.cpp.s
+.PHONY : src/twoPointersType.s
+
+# target to generate assembly for a file
+src/twoPointersType.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/twoPointersType.cpp.s
+.PHONY : src/twoPointersType.cpp.s
 
 # Help Target
 help:
@@ -634,15 +802,36 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... leetcode
+	@echo ... src/binarySearchType.obj
+	@echo ... src/binarySearchType.i
+	@echo ... src/binarySearchType.s
+	@echo ... src/bitOperationType.obj
+	@echo ... src/bitOperationType.i
+	@echo ... src/bitOperationType.s
 	@echo ... src/dpType.obj
 	@echo ... src/dpType.i
 	@echo ... src/dpType.s
+	@echo ... src/fastSlowPointers.obj
+	@echo ... src/fastSlowPointers.i
+	@echo ... src/fastSlowPointers.s
+	@echo ... src/hashMapType.obj
+	@echo ... src/hashMapType.i
+	@echo ... src/hashMapType.s
+	@echo ... src/linkedListType.obj
+	@echo ... src/linkedListType.i
+	@echo ... src/linkedListType.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/twoPointerType.obj
-	@echo ... src/twoPointerType.i
-	@echo ... src/twoPointerType.s
+	@echo ... src/monoStack.obj
+	@echo ... src/monoStack.i
+	@echo ... src/monoStack.s
+	@echo ... src/stringEditType.obj
+	@echo ... src/stringEditType.i
+	@echo ... src/stringEditType.s
+	@echo ... src/twoPointersType.obj
+	@echo ... src/twoPointersType.i
+	@echo ... src/twoPointersType.s
 .PHONY : help
 
 
