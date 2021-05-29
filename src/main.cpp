@@ -8,6 +8,7 @@
 #include "hashMapType.h"
 #include "twoPointersType.h"
 #include "binarySearchType.h"
+#include "prefixSumType.h"
 #ifndef GENERAL_H
 #define GENERAL_H
 #endif
@@ -23,8 +24,12 @@ int main(){
     // two.next=&three;
     // three.next=&four;
     // four.next=&five;
-    vector<int> input1={3,1};
-    cout<<medium33_search(input1,1)<<endl;
+    vector<vector<int>> input;
+    vector<int> input1={3,3,3};
+    vector<int> input2={-1,1};
+    input.emplace_back(input1);
+    input.emplace_back(input2);
+    cout<<medium560_subarraySum(input1,3)<<endl;
     // vector<int> input2={1,3,4,2};
     // vector<int> output=medium347_topKFrequent(input1,2);
     // for(int x:output){

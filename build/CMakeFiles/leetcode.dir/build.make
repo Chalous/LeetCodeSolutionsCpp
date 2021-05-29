@@ -180,10 +180,24 @@ CMakeFiles/leetcode.dir/src/monoStack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/src/monoStack.cpp.s"
 	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\monoStack.cpp -o CMakeFiles\leetcode.dir\src\monoStack.cpp.s
 
+CMakeFiles/leetcode.dir/src/prefixSumType.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/src/prefixSumType.cpp.obj: ../src/prefixSumType.cpp
+CMakeFiles/leetcode.dir/src/prefixSumType.cpp.obj: CMakeFiles/leetcode.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Coding\C++Projects\LeetCodeSolutionsCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/leetcode.dir/src/prefixSumType.cpp.obj"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode.dir/src/prefixSumType.cpp.obj -MF CMakeFiles\leetcode.dir\src\prefixSumType.cpp.obj.d -o CMakeFiles\leetcode.dir\src\prefixSumType.cpp.obj -c F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\prefixSumType.cpp
+
+CMakeFiles/leetcode.dir/src/prefixSumType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/src/prefixSumType.cpp.i"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\prefixSumType.cpp > CMakeFiles\leetcode.dir\src\prefixSumType.cpp.i
+
+CMakeFiles/leetcode.dir/src/prefixSumType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/src/prefixSumType.cpp.s"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\prefixSumType.cpp -o CMakeFiles\leetcode.dir\src\prefixSumType.cpp.s
+
 CMakeFiles/leetcode.dir/src/stringEditType.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/src/stringEditType.cpp.obj: ../src/stringEditType.cpp
 CMakeFiles/leetcode.dir/src/stringEditType.cpp.obj: CMakeFiles/leetcode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Coding\C++Projects\LeetCodeSolutionsCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/leetcode.dir/src/stringEditType.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Coding\C++Projects\LeetCodeSolutionsCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/leetcode.dir/src/stringEditType.cpp.obj"
 	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode.dir/src/stringEditType.cpp.obj -MF CMakeFiles\leetcode.dir\src\stringEditType.cpp.obj.d -o CMakeFiles\leetcode.dir\src\stringEditType.cpp.obj -c F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\stringEditType.cpp
 
 CMakeFiles/leetcode.dir/src/stringEditType.cpp.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/leetcode.dir/src/stringEditType.cpp.s: cmake_force
 CMakeFiles/leetcode.dir/src/twoPointersType.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/src/twoPointersType.cpp.obj: ../src/twoPointersType.cpp
 CMakeFiles/leetcode.dir/src/twoPointersType.cpp.obj: CMakeFiles/leetcode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Coding\C++Projects\LeetCodeSolutionsCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/leetcode.dir/src/twoPointersType.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Coding\C++Projects\LeetCodeSolutionsCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/leetcode.dir/src/twoPointersType.cpp.obj"
 	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode.dir/src/twoPointersType.cpp.obj -MF CMakeFiles\leetcode.dir\src\twoPointersType.cpp.obj.d -o CMakeFiles\leetcode.dir\src\twoPointersType.cpp.obj -c F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\twoPointersType.cpp
 
 CMakeFiles/leetcode.dir/src/twoPointersType.cpp.i: cmake_force
@@ -218,6 +232,7 @@ leetcode_OBJECTS = \
 "CMakeFiles/leetcode.dir/src/linkedListType.cpp.obj" \
 "CMakeFiles/leetcode.dir/src/main.cpp.obj" \
 "CMakeFiles/leetcode.dir/src/monoStack.cpp.obj" \
+"CMakeFiles/leetcode.dir/src/prefixSumType.cpp.obj" \
 "CMakeFiles/leetcode.dir/src/stringEditType.cpp.obj" \
 "CMakeFiles/leetcode.dir/src/twoPointersType.cpp.obj"
 
@@ -232,13 +247,14 @@ leetcode_EXTERNAL_OBJECTS =
 ../bin/leetcode.exe: CMakeFiles/leetcode.dir/src/linkedListType.cpp.obj
 ../bin/leetcode.exe: CMakeFiles/leetcode.dir/src/main.cpp.obj
 ../bin/leetcode.exe: CMakeFiles/leetcode.dir/src/monoStack.cpp.obj
+../bin/leetcode.exe: CMakeFiles/leetcode.dir/src/prefixSumType.cpp.obj
 ../bin/leetcode.exe: CMakeFiles/leetcode.dir/src/stringEditType.cpp.obj
 ../bin/leetcode.exe: CMakeFiles/leetcode.dir/src/twoPointersType.cpp.obj
 ../bin/leetcode.exe: CMakeFiles/leetcode.dir/build.make
 ../bin/leetcode.exe: CMakeFiles/leetcode.dir/linklibs.rsp
 ../bin/leetcode.exe: CMakeFiles/leetcode.dir/objects1.rsp
 ../bin/leetcode.exe: CMakeFiles/leetcode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Coding\C++Projects\LeetCodeSolutionsCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ..\bin\leetcode.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Coding\C++Projects\LeetCodeSolutionsCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ..\bin\leetcode.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\leetcode.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

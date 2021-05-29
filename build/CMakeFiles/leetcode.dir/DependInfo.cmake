@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/linkedListType.cpp" "CMakeFiles/leetcode.dir/src/linkedListType.cpp.obj" "gcc" "CMakeFiles/leetcode.dir/src/linkedListType.cpp.obj.d"
   "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/main.cpp" "CMakeFiles/leetcode.dir/src/main.cpp.obj" "gcc" "CMakeFiles/leetcode.dir/src/main.cpp.obj.d"
   "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/monoStack.cpp" "CMakeFiles/leetcode.dir/src/monoStack.cpp.obj" "gcc" "CMakeFiles/leetcode.dir/src/monoStack.cpp.obj.d"
+  "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/prefixSumType.cpp" "CMakeFiles/leetcode.dir/src/prefixSumType.cpp.obj" "gcc" "CMakeFiles/leetcode.dir/src/prefixSumType.cpp.obj.d"
   "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/stringEditType.cpp" "CMakeFiles/leetcode.dir/src/stringEditType.cpp.obj" "gcc" "CMakeFiles/leetcode.dir/src/stringEditType.cpp.obj.d"
   "F:/Coding/C++Projects/LeetCodeSolutionsCpp/src/twoPointersType.cpp" "CMakeFiles/leetcode.dir/src/twoPointersType.cpp.obj" "gcc" "CMakeFiles/leetcode.dir/src/twoPointersType.cpp.obj.d"
   )

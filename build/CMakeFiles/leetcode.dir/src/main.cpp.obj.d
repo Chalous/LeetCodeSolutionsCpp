@@ -175,4 +175,5 @@ CMakeFiles/leetcode.dir/src/main.cpp.obj: \
  F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\monoStack.h \
  F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\hashMapType.h \
  F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\twoPointersType.h \
- F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\binarySearchType.h
+ F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\binarySearchType.h \
+ F:\Coding\C++Projects\LeetCodeSolutionsCpp\src\prefixSumType.h

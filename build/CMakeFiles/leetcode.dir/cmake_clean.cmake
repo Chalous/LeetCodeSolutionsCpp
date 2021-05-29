@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/leetcode.dir/src/main.cpp.obj.d"
   "CMakeFiles/leetcode.dir/src/monoStack.cpp.obj"
   "CMakeFiles/leetcode.dir/src/monoStack.cpp.obj.d"
+  "CMakeFiles/leetcode.dir/src/prefixSumType.cpp.obj"
+  "CMakeFiles/leetcode.dir/src/prefixSumType.cpp.obj.d"
   "CMakeFiles/leetcode.dir/src/stringEditType.cpp.obj"
   "CMakeFiles/leetcode.dir/src/stringEditType.cpp.obj.d"
   "CMakeFiles/leetcode.dir/src/twoPointersType.cpp.obj"

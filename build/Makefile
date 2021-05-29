@@ -714,6 +714,30 @@ src/monoStack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/monoStack.cpp.s
 .PHONY : src/monoStack.cpp.s
 
+src/prefixSumType.obj: src/prefixSumType.cpp.obj
+.PHONY : src/prefixSumType.obj
+
+# target to build an object file
+src/prefixSumType.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/prefixSumType.cpp.obj
+.PHONY : src/prefixSumType.cpp.obj
+
+src/prefixSumType.i: src/prefixSumType.cpp.i
+.PHONY : src/prefixSumType.i
+
+# target to preprocess a source file
+src/prefixSumType.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/prefixSumType.cpp.i
+.PHONY : src/prefixSumType.cpp.i
+
+src/prefixSumType.s: src/prefixSumType.cpp.s
+.PHONY : src/prefixSumType.s
+
+# target to generate assembly for a file
+src/prefixSumType.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/src/prefixSumType.cpp.s
+.PHONY : src/prefixSumType.cpp.s
+
 src/stringEditType.obj: src/stringEditType.cpp.obj
 .PHONY : src/stringEditType.obj
 
@@ -826,6 +850,9 @@ help:
 	@echo ... src/monoStack.obj
 	@echo ... src/monoStack.i
 	@echo ... src/monoStack.s
+	@echo ... src/prefixSumType.obj
+	@echo ... src/prefixSumType.i
+	@echo ... src/prefixSumType.s
 	@echo ... src/stringEditType.obj
 	@echo ... src/stringEditType.i
 	@echo ... src/stringEditType.s
